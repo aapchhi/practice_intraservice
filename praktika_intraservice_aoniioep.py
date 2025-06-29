@@ -12,11 +12,9 @@ class PrinterInfoApp:
         self.root.title("Учет оргтехники")
         self.root.geometry("750x800")
         
-        # Настройки приложения
         self.script_folder = "scripts"
         os.makedirs(self.script_folder, exist_ok=True)
         
-        # Список всех полей (оригинальный набор)
         self.field_names = [
             "InventoryNumber", 
             "Description", 
